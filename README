@@ -3,3 +3,17 @@ MaBeee (https://mabeee.mobi/) をLinux + Pythonから利用するコード。
 
 動作にはbluepyが必要です。
 Gentoo Linuxで動作確認しています。
+
+使い方
+
+./mabeee_ctrl.py scan でMaBeeeデバイスのスキャン。(多分root権限が必要)
+./mabeee_ctrl.py XX:XX:XX:XX:XX:XX  でデバイスに接続する。
+MACアドレスの代わりにname (MaBeeeX01234) が使用できるが、その場合もrootが必要。
+接続後に PWM 0-100: とでるので、数字を打ち込むとその割合で出力される。
+
+
+
+
+Copyright (c) 2020 スナガラボ株式会社
+
+
