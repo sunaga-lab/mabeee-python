@@ -1,0 +1,5 @@
+
+MaBeee (https://mabeee.mobi/) をLinux + Pythonから利用するコード。
+
+動作にはbluepyが必要です。
+Gentoo Linuxで動作確認しています。
